@@ -1,5 +1,9 @@
+import { renderComponent } from '../react-dom/render'
+
 class Component {
     constructor(props = {}){
+        this.isReactComponent = true;
+
         this.state = {}
         this.props = props
     }
@@ -9,3 +13,4 @@ class Component {
     }
 }
 
+export default Component;
